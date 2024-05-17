@@ -15,6 +15,7 @@ python main.py
 2.Сервер и клиенты будут запущены,и логирование начнется автоматически.
 ## Логи
 Логи сервера и клиентов находятся в соответствующих директориях:
-*'server/logs/server.log'
-*'client/logs/client1.log'
-*'client/logs/client2.log'
+
+* 'server/logs/server.log'
+* 'client/logs/client1.log'
+* 'client/logs/client2.log'
