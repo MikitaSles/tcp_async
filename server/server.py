@@ -26,7 +26,7 @@ async def handle_client(reader, writer):
             request_time = now.strftime("%H:%M:%S.%f")[:-3]
             print(f"Received {request} from {addr}")
 
-            if random.random() > 0.1:  # 90% шанс ответа
+            if random.random() > 0.1:  
                 await asyncio.sleep(random.uniform(0.1, 1.0))
                 response = f"[{response_counter}/{request_counter}] PONG ({client_id})"
                 response_time = datetime.now().strftime("%H:%M:%S.%f")[:-3]
